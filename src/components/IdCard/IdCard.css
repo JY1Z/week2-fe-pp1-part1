@@ -1,0 +1,35 @@
+
+.id-card {
+    border: 2px solid #0a0a0a; 
+    width: 800px;
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.id-card-picture {
+    width: 150px;
+    height: 150px; 
+    margin-right: 10px;
+}
+
+.id-card-info {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.id-card-info ul {
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.id-card-info li {
+    margin-bottom: 8px; 
+    list-style-type: none;
+
+}
